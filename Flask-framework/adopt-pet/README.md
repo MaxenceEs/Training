@@ -33,7 +33,7 @@ def index():
 ```
 
 ### Second route `@app.route('/animals/<pet_type>')`
-After have selected a pet type, this page allow to select a pet. 
+After have selected a pet type, this page allow to select a pet.  
 ![](./docs/img/page_pet_type.png)
 
 Powered by this snippet :
@@ -53,7 +53,7 @@ def animals(pet_type):
 ```
 
 ### Third route `@app.route('/animals/<pet_type>/<int:pet_id>')`
-After have selected a pet, this page allow to see some details on the selected pet. 
+After have selected a pet, this page allow to see some details on the selected pet.  
 ![](./docs/img/page_pet_id.png)
 
 Powered by this snippet :
