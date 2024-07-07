@@ -6,13 +6,15 @@
 * Run the `app.py` file (`python sources/adopt-pet/app.py`)
 
 # Description
-Little project to start to learn `Flask` framework.
-Only two files are used :
-* app.py - contains 3 routes, with `HTML` hard written (compliant to `Jinja` format)
-* helper.py - mock the data
+Little project to start to learn `Flask` framework.  
+This project allow to select a type of pet to adopt, and then see more informations on each availables pets.  
 
 # Overview
 ![](./docs/img/synthesis.png)
+
+# Architecture
+* app.py -**`Launcher`** containing the routes, with `HTML` hard written (compliant to `Jinja` format)
+* helper.py - mock the data  
 
 # Available routes
 * `@app.route('/')`

@@ -6,15 +6,18 @@
 * Run the `app.py` file (`python sources/cooking-by-myself_2/app.py`)
 
 # Description
-Little project to start to learn `Flask` framework.
-Only three files type are used :
-* app.py - contains 3 routes
-* helper.py - mock the data
-* forms.py - contains forms for `Flask`
-* *.html - contains the `Jinja` templates (`HTML` files)
+Little project to start to learn `Flask` framework.  
+This project allow to select a recipe to see how to cook it.  
+It also allow to add recipe and comments using `POST` requests.  
 
 # Overview
 ![](./docs/img/synthesis.png)
+
+# Architecture
+* app.py - **`Launcher`** containing the routes
+* helper.py - mock the data
+* forms.py - contains forms for `Flask`
+* *.html - contains the `Jinja` templates (`HTML` files)
 
 # Available routes
 * `@app.route('/')`
