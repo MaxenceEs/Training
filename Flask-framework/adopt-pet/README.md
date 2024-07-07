@@ -1,5 +1,4 @@
 # Quick Start
-
 * Clone the repository
 * Create a virtual environment from root (`python -m venv venv`)
 * Activate it (`venv/Scripts/activate`)
@@ -10,7 +9,7 @@
 Little project to start to learn `Flask` framework.
 Only two files are used :
 * app.py - contains 3 routes, with `HTML` hard written (compliant to `Jinja` format)
-* helper.py - contains the data
+* helper.py - mock the data
 
 # Overview
 ![](./docs/img/synthesis.png)

@@ -1,5 +1,4 @@
 # Quick Start
-
 * Clone the repository
 * Create a virtual environment from root (`python -m venv venv`)
 * Activate it (`venv/Scripts/activate`)
@@ -10,7 +9,7 @@
 Little project to start to learn `Flask` framework.
 Only three files type are used :
 * app.py - contains 3 routes
-* helper.py - contains the data
+* helper.py - mock the data
 * *.html - contains the `Jinja` templates (`HTML` files)
 
 # Overview
@@ -22,7 +21,6 @@ Only three files type are used :
 * `@app.route('/recipe/<int:id>')`
 
 # Concepts learned
-Basic demonstration of following concepts :
 * `Flask` function `render_template()`
 * `Flask` & `Jinja` templates variable
 * `Jinja` variable filters
