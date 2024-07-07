@@ -24,3 +24,4 @@ Concepts learned in each project :
     * `Flask` - data acquisition from the `FlaskForm` -> `my_Form.my_field.data`
     * `Flask` - form validation -> `validators=[DataRequired()]` / `my_form.validate_on_submit()`
     * `Flask` - route redirection -> `redirect(url_for("new_route", _external=True, _scheme='https'))`
+* [04_tourist-attraction](./Flask-framework/04_tourist-attraction/) - ([Codecademy project](https://www.codecademy.com/paths/build-python-web-apps-flask/tracks/introduction-to-flask/modules/flask-templates-and-forms/projects/tourist-attractions-app))
